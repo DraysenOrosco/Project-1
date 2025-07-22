@@ -10,11 +10,14 @@
 # simple pokedex descrption
 # dark mode toggle 
 
+# Purpose of application
+# To use as a pokedex of shiny and regular pokemon!
+
 # how to use!
 
 # right click on Index html and click "open with live server"
 # go to "type name" in the middle of the page and type a pokemon
-# click "Fetch Pokemon" then the app will display said pokemon requested
+# click "Search Pokemon" then the app will display said pokemon requested
 # Optional Look at top right corner of application and press "Dark Mode" button to switch between dark/light mode 
 
 # improvements i see in the future:
