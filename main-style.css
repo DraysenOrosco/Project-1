@@ -1,0 +1,53 @@
+.pokemonLogo {
+  margin: auto;
+  display: block;
+}
+body {
+  padding: 25px;
+  background-color: #FFCB05;
+  color: black;
+  font-size: 25px;
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+#pokemonSprite {
+  display: contents;
+  border: solid #3466AF 5px;
+  background-color: none;
+  padding: 1px;
+  width: 200px;
+  margin: auto;
+}
+#pokemonName {
+  display: block;
+  margin: auto;
+}
+#darkModeButton{
+  position:fixed;
+  top: 10px;
+  right: 10px;
+}
+#shinyPokemonSprite{
+  display: contents;
+  border: solid #3466AF 5px;
+  background-color: none;
+  padding: 1px;
+  width: 200px;
+  margin: auto;
+}
+.FetchPokemon{
+  display: block;
+  margin: auto;
+}
+#img2{
+  position:fixed;
+  top: 10px;
+  left: 10px;
+  width: 200px;
+}
+
+
+
+

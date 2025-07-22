@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <style>
+        body{
+            background-image: url(https://wallpapersok.com/images/hd/cute-pokemon-surfing-pikachu-wyxmrvtfadem79kp-wyxmrvtfadem79kp.jpg);
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+    </style> -->
+    <title>Pokemon API</title>
+    <style>
+        body{
+            padding: 25px;
+            background-color: white;
+            color: black;
+            font-size: 25px;
+        }
+        .dark-mode {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <script src ="./MainApp.js"></script>
+    <link rel="stylesheet" href="main-style.css">
+</head>
+<div id="Img1">
+    <img class= pokemonLogo src="https://archives.bulbagarden.net/media/upload/4/4b/Pokédex_logo.png" alt="pokemon Logo" style="display: block;">
+</div>
+<div id="img2">
+    <img src="https://media.tenor.com/8PlnT9rtCScAAAAj/mew-pokemon.gif" alt="pokedex logo">
+</div>
+<body>
+    <input type="text" id="pokemonName" placeholder="Enter Pokemon Name">
+    <button class= "FetchPokemon" onclick="fetchData()">Fetch Pokemon</button><br>
+    <div class="sprite-container">
+    <img src="" alt="Pokemon" id="pokemonSprite" style="display: none;">
+    <img src="" alt="Shiny Pokemon" id="shinyPokemonSprite" style="display: none";>
+    </div>
+    <div id="pokemonInfo"></div>
+        <!-- darkmode button -->
+        <div id="darkModeButton">
+    <button onclick="myFunction()">Toggle dark mode</button>
+    </div>
+    <script>
+        function myFunction(){
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+    </script>
+</body>
+</html>
+
+<!-- https://static.vecteezy.com/system/resources/previews/027/127/571/non_2x/pokemon-logo-pokemon-icon-transparent-free-png.png -->
+
+<!-- old code -->
+<!-- <h1>Welcome to my API Project</h1> 
+    <h3>Explore the Buttons bellow- Click the dropdown list for Pokemon Options</h3>
+    <select id="pokemon-Terms">
+    <option value="disabled selected">Select your option...</option>
+    <option value="chimchar">Chimchar</option>
+    <option value="pikachu">Pikachu</option>
+    <option value="charmander">Charmander</option>
+    <option value="bulbasaur">Bulbasaur</option>
+    </select>
+    <div>
+        <div id = "Definition-Holder">
+            Definition Goes here...
+        </div> -->
+        <!-- old code -->
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+</style>
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <input type="text" placeholder="Search..">
+    </div>
+    
+<h2></h2>
+
+<button onclick="myFunction()">Toggle dark mode</button>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+
+</body>
+</html> -->
+
+

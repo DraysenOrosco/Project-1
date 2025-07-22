@@ -1,0 +1,25 @@
+{
+  "name": "Pokemon-API",
+  "version": "1.0.0",
+  "description": "an app to show Pokemon",
+  "main": "project.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Pokemon"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DraysenOrosco/Project-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DraysenOrosco/Project-1/issues"
+  },
+  "homepage": "https://github.com/DraysenOrosco/Project-1#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
