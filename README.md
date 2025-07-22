@@ -18,5 +18,8 @@
 # Optional Look at top right corner of application and press "Dark Mode" button to switch between dark/light mode 
 
 # improvements i see in the future:
+# add an evoloution factor 
+# adding in the diffrent type of pokemon from diffrent versions
+# having more self improvement!
 
 # dev dependinces version 1.0.0

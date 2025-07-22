@@ -53,7 +53,6 @@ async function fetchData() {
 }
 
 
-
 // fetch("https://pokeapi.co/api/v2/pokemon/chimchar")
 // .then(response => {
 //   if (!response.ok){
@@ -121,4 +120,3 @@ async function fetchData() {
 //       console.error(error.message);
 //     }
 //   }
-
